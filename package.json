@@ -1,0 +1,21 @@
+{
+  "name": "delusion",
+  "version": "1.0.0",
+  "description": "image to svg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server_launcher.js",
+    "dev": "nodemon ./server_launcher.js"
+  },
+  "keywords": [
+    "delusion",
+    "svg",
+    "converter"
+  ],
+  "author": "grenudi",
+  "license": "MIT",
+  "dependencies": {
+    "get-pixels": "^3.3.0"
+  }
+}
